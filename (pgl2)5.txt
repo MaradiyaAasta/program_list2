@@ -1,0 +1,11 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	float PI=3.14567;
+	
+	cout<<setprecision(5)<<PI<<endl;
+	
+	return 0;
+}
