@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class temp
+{
+	public:
+			void display();
+};
+void temp :: display()
+{
+	cout<<"Hello everyone.."<<endl;
+	cout<<"Welcome to Dr.Shubhash University..";
+	
+}
+int main()
+{
+	temp t1;
+	t1.display();
+	return 0;
+}
