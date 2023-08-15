@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int a=10;
+int main()
+{
+	int a=30;
+	
+	cout<<"The local variable is ::"<<a<<endl;
+	cout<<"The global variable is ::"<<::a<<endl;
+	
+	return 0;
+}
